@@ -1,0 +1,42 @@
+.tool_container {
+    margin:0 auto;
+    width:600px;
+    box-shadow:0 0 1vw rgba(0,0,0,0.5);
+}
+.notice_text {
+    background:rgb(255,235,175);
+    color:rgb(125,85,0);
+    padding:3px 5px;
+    border:dashed 1px rgb(125,85,0);
+}
+
+.input_area {
+    background:rgb(220,220,220);
+    padding:5px;
+}
+.input_area #json_input {
+    display:block; width:95%;
+    margin:0 auto;
+}
+.input_area #json_submit {
+    display:block; width:35%;
+    padding:3px;
+    margin:3px auto;
+    font-size:15px; text-align:center;
+}
+#err_zone .error {
+    background:rgb(255,200,200);
+    color:rgb(50,0,0);
+}
+#err_zone .error .errTitle {
+    font-weight:bold; text-align:center;
+}
+#err_zone .error .errDescription {
+    width:75%; margin:0 auto; text-align:center;
+    padding:5px 0 25px 0;
+}
+#err_zone .error .errRaw {
+    width:75%; margin:0 auto; border:dashed 2px red;
+    background:rgb(255,150,150); padding:5px 7px;
+    font-size:12px; font-family:'InconsolataLGCRegular', consolas, cursive;
+}
